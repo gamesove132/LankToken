@@ -1,0 +1,26 @@
+name: TokensPlugin
+version: 1.0.0
+main: com.tokens.TokensPlugin
+api-version: 1.20
+author: kostya
+description: Token system with per-world support and DeluxeMenus/PlaceholderAPI integration
+ 
+softdepend:
+  - PlaceholderAPI
+ 
+commands:
+  tokens:
+    description: Token system
+    usage: /tokens [set|give|take|reset] [player] [world] [amount]
+    permission: tokens.use
+ 
+permissions:
+  tokens.use:
+    description: View own tokens
+    default: true
+  tokens.check:
+    description: View other player tokens
+    default: op
+  tokens.admin:
+    description: Set/give/take/reset tokens
+    default: op
