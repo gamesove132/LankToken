@@ -1,0 +1,11 @@
+# Повідомлення (підтримують &-кольори)
+messages:
+  balance: "&6Ваші токени &7(&f{world}&7): &e{tokens}"
+  tokens-set: "&6Адміністратор встановив ваші токени: &e{tokens} &7(світ: &f{world}&7)"
+  tokens-received: "&aВи отримали &e{amount} &aтокенів! &7Баланс: &e{balance} &7(світ: &f{world}&7)"
+
+# Приклад використання плейсхолдерів в DeluxeMenus:
+# %tokens_current%           - токени в поточному світі гравця
+# %tokens_world_survival%    - токени у світі "survival"
+# %tokens_world_skyblock%    - токени у світі "skyblock"
+# %tokens_survival%          - скорочена форма
